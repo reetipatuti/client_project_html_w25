@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Student Success Portal</title>
 </head>
 <body>
 
     <header>
-  <a href = "">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Page 1</a></li>
-                <li><a href = "page_2.html">Page 2</a></li>
-                <li><a href = "page_3.html">Page 3</a></li>
-            </ul>
-        </nav>
-        <h1>Student Success Portal</h1>
+        <div style=" background-color: #00014b; text-align: center;" >
+        <a href = "#main" class = "skip" style="color: white; text-align: left">Skip to Main Content</a>
+                <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" style="width: 100px; height: auto;">
+                <nav>
+                    <ul style="list-style-type: none; display: flex; gap: 10px; background-color: #00014b; padding: 10px 0;">
+                    <li><a href="index.html" class="active" style="color: rgb(255, 213, 0);">Home</a></li>
+                    <li><a href="page_1.html">Academic Support</a></li>
+                    <li><a href="page_2.html">Maize and Blue Cupboard</a></li>
+                    <li><a href="page_3.html">Basic Needs</a></li>
+                </ul>
+                </nav>
+        </div>
+                <h1>Student Success Portal</h1>
 
-    </header>
-    <main>
+            </header>
+    <main id="main">
         <section>
             <h2>Welcome to the UM Grad Success Navigator</h2>
             <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
@@ -40,7 +44,7 @@
             <article>
                 <h3>University Health Service (UHS)</h3>
                 <figure>
-                    <img src="images/UHS.jpg" alt="University Health Services building">
+                    <img src="images/UHS.jpg" alt="University Health Services building" style="width: 500px; height: auto;">
                     <figcaption>University Health Services Building</figcaption>
                 </figure>
                 <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
@@ -48,7 +52,7 @@
             <article>
                 <h3>Recreational Sports</h3>
                 <figure>
-                    <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
+                    <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag." style="width: 500px; height: auto;">
                     <figcaption>UMSI out in the fall!</figcaption>
                 </figure>
                 <p>Participate in various fitness programs, sports clubs, and use of gym facilities to stay active and healthy.</p>
@@ -99,6 +103,6 @@
     </main>
     <footer>
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-        </footer>
+    </footer>
 </body>
 </html>

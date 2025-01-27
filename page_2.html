@@ -3,41 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Maize and Blue Cupboard</title>
 </head>
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a> 
-        <img src="images/logo.png" alt="UMSI Logo">
+        <div style=" background-color: #00014b; text-align: center;" >
+            <a href = "#main" class = "skip" style="color: white; text-align: left">Skip to Main Content</a> 
+            
+        <img src="images/logo.png" alt="UMSI Logo" style="width: 300px; height: auto;">
         <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Page 1</a></li>
-                <li><a href = "page_2.html">Page 2</a></li>
-                <li><a href = "page_3.html">Page 3</a></li>
-            </ul>
+            <ul style="list-style-type: none; display: flex; gap: 10px; background-color: #00014b; padding: 10px 0;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page_1.html">Academic Support</a></li>
+            <li><a href="page_2.html" class="active" style="color: rgb(255, 213, 0);">Maize and Blue Cupboard</a></li>
+            <li><a href="page_3.html">Basic Needs</a></li>
+        </ul>
         </nav>
+        </div>
         <h1>WHO WE ARE</h1>
 
     </header>
-    <main>
-        <div>
-            <img src="images/food.png" alt="UMSI Logo">
+    <main id="main">
+        <div style="display: flex; align-items: center; gap: 20px; background-color: rgb(0, 123, 255);">
+            <div>
             <p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.
 
-                Read our FAQs to learn more about the Maize and Blue Cupboard and how you can get help. </p>
-
+            Read our FAQs to learn more about the Maize and Blue Cupboard and how you can get help.</p>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ksqfEgX8KJg?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-<div>WHAT WE PROVIDE</div>
+<div><h1>WHAT WE PROVIDE</h1></div>
 <div>
-    <p> <ul> 
-        <li>FOOD</li>
-        <li>KITCHEN & COOKING</li>
-        <li>PERSONAL & HOUSEHOLD</li>
-        <li>SUPPORT</li>
-    </ul></p>
+    <p>
+        <ul>
+            <li><strong>FOOD</strong> Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</li>
+            <li><strong>KITCHEN & COOKING</strong> Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware</li>
+            <li><strong>PERSONAL & HOUSEHOLD</strong> Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more</li>
+            <li><strong>SUPPORT</strong> Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)</li>
+            
+        </ul>
+    </p>
+    <img src="images/veggies.png" alt="vegetables" style="width: 300px; height: auto;">
 
 </div>
 

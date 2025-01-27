@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Academic Support</title>
 </head>
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a>
+        
+        <div style=" background-color: #00014b; text-align: center;" >
+            <a href = "#main" class = "skip" style="color: white; text-align: left">Skip to Main Content</a> 
         <nav>
-            <ul>
+            <ul style="list-style-type: none; display: flex; gap: 10px; background-color: #00014b; padding: 10px 0;">
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Page 1</a></li>
-                <li>Page 2</li>
-                <li>Page 3</li>
+                <li><a href="page_1.html" class="active" style="color: rgb(255, 213, 0);">Academic Support</a></li>
+                <li><a href="page_2.html">Maize and Blue Cupboard</a></li>
+                <li><a href="page_3.html">Basic Needs</a></li>
             </ul>
         </nav>
+        </div>
         <h1>Academic Suport at UMSI</h1>
 
     </header>
-    <main>
+    <main id="main">
+        <div style="position: relative; display: block; width: 100%; max-height: 500px; overflow: hidden;">
+            <img src="images/school_of_info.jpeg" alt="school of information" style="width: 100%; height: auto; max-height: 500px;">
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold; text-align: center;">
+            <h2>MSI ACADEMIC ADVISING RESOURCE SITE</h2>
+            </div>
+        </div>
         <div>
             <p>At the University of Michigan School of Information (UMSI), we are committed to supporting our students' academic success by offering a wide array of resources and services. Our academic advising team provides personalized guidance to help you navigate your curriculum, select courses, and address any academic challenges or questions you may encounter during your studies. UMSI students also have access to the extensive collections and study spaces within the University Library system, offering both digital and physical resources essential for research and coursework. Additionally, our specialized tutoring services and the UMSI Writing Center are available to support you in mastering complex subjects and enhancing your written communication skills. By utilizing these academic resources, UMSI students can thrive in their studies and achieve their educational goals. </p>
 
