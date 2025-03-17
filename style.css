@@ -1,0 +1,126 @@
+
+
+body {
+    background-color:#ffffff;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    margin: 20px;
+}
+/*skip styling and positioning */
+.skip{
+    position: absolute;
+    top: -20px;
+    color: #ffffff;
+    text-align: left
+}
+.skip:focus{
+    top: 20px;
+    background-color: blue;
+}
+/*nav styling */
+nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    align-content: start;
+    background-color: #00014b;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: start;
+}
+
+nav a {
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    color: #00014b;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Arial, sans-serif;
+}
+/* footer styling */
+footer {
+    background-color: #00014b;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #f3ce12;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* img styling */
+div ul li img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+/* card styling */
+.card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: start;
+    text-align: center;
+    width: 300px;
+}
+.card_list{
+    display: grid;
+    gap: 20px;
+    list-style-type: none;
+    width: 100%;
+    max-width: 1200px;
+}
+/* logo styling */
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+/* page 2 video styling */
+.maize_video{
+    width: 100%;
+    height:auto;
+}
+
+.maize_img {
+    width: 100%;
+    height: auto;
+}
