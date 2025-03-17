@@ -1,34 +1,316 @@
-nav a {
-    color: white;
+body {
+    background-color:#ffffff;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    margin: 20px;
 }
+.skip{
+    position: absolute;
+    top: -20px;
+}
+.skip:focus{
+    top: 20px;
+    color: blue;
+}
+
 h1 {
-    font-weight: bold;
-    text-decoration: underline;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00284d;
+    margin: 10px 0;
+    font-weight: 800;
 }
+
 h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00284d;
+    font-weight: 400;
+    line-height: 2;
 }
+
 h3 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00284d;
+    font-weight: 600;
+    line-height: 2;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.content_wrapper {
     display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    padding: 20px 0;
+}
+
+.desc_images img{
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+}
+.content_text{
+    margin: 20px 0px;
+}
+/* navigation menu styling */
+.nav_grid ul {
+    display: grid;
+    grid-template-columns: 1fr; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #00284d;
+}
+
+.nav_grid li {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #34495e;
+}
+
+.nav_grid li:last-child {
+    border-bottom: none; 
+}
+
+.nav_grid a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    display: block; 
+}
+
+.nav_grid a:hover {
+    background-color: #34495e;
+    padding: 10px; 
+}
+
+.nav_grid .active a {
+    color: #f3ce12; 
+    background-color: #1a4567;
+    border-left: 5px solid #f3ce12; 
+    padding: 10px;
     font-weight: bold;
 }
-p {
-    font-size: 1em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-family: Arial, sans-serif;
+/* logo styling */
+.logo{
+    display: grid;
+    justify-items: center;
+    padding: 20px;
+}
+.m_logo{
+    width: 300px;
+    border-radius: 5px;
+}
+ol{
+    list-style:disc;
+    padding: 20px;
+    line-height: 1.5;
+}
+/* card styling */
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    list-style-type: none;
+    padding: 20px 0;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.card strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+/* footer styling */
+.footer {
+    background-color: #0b0e10;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer a {
+    color: #f3ce12;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Form styling */
+form {
+    background-color: #fdf9ec; 
+    padding: 30px;
+    font-size: 16px;
+    max-width: 600px;
+    border-radius: 8px;
+    border: 1px solid #e7e7e7;
+    color: #333; 
+    margin: 20px 0;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #00274C; /* Michigan Blue */
+}
+
+label {
+    display: block;
+    color: #00274C;
+}
+form p{
+    color: #00274C;
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea, input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    color: #333;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+input[type="text"]:focus, textarea:focus, input[type="email"]:focus {
+    border-color: #00274C;
+}
+input[type="checkbox"] {
+    appearance: auto;
+    -webkit-appearance: auto; 
+    -moz-appearance: auto;
+    margin: 5px 0;
+}
+input[type="submit"] {
+    background-color: #FFCB05;
+    color: #00274C;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 200px;
+    appearance: auto; 
+  -webkit-appearance: auto; /* Ensures the default appearance on WebKit browsers */
+  -moz-appearance: auto;
+  }
+  
+  /* Hover effect for the dropdown */
+  select:hover {
+    border-color: #888;
+  }
+  
+  /* Focus effect for the dropdown */
+  select:focus {
+    border-color: #0056b3;
+  }
+
+input[type="submit"]:hover {
+    background-color: #e6b805;
+}
+
+textarea {
+    resize: vertical; 
+}
+/* 404 page */
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.error-container h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.error-container p {
+    font-size: 1.5em;
+    color: #666;
+    margin: 20px 0;
+}
+
+.error-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #000000;
+    background-color: #FFCB05;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #e6b805;
+}
+
+/* for desktop */
+@media only screen and (min-width: 768px) {
+    .nav_grid ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav_grid li {
+        padding: 15px 30px;
+        border-bottom: none;
+        border-left: none;
+    }
+    .nav_grid a:hover {
+        background-color: transparent;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    .nav_grid .active a {
+        border-left: none;
+        background-color: transparent;
+        border-bottom: 3px solid #f3ce12;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .card:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    }
+    form {
+        max-width: 800px;
+    }
 }
