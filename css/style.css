@@ -1,11 +1,5 @@
 
 
-body {
-    background-color:#ffffff;
-    color: #000000;
-    font-family: Montserrat, sans-serif;
-    margin: 20px;
-}
 /*skip styling and positioning */
 .skip{
     position: absolute;
@@ -64,8 +58,6 @@ p {
     font-size: 1em;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-family: Arial, sans-serif;
 }
 /* footer styling */
@@ -103,10 +95,11 @@ div ul li img {
 }
 .card_list{
     display: grid;
+    justify-items: center;
     gap: 20px;
     list-style-type: none;
     width: 100%;
-    max-width: 1200px;
+    padding: 0;
 }
 /* logo styling */
 .logo{
