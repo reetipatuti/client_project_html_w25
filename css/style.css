@@ -19,7 +19,6 @@ nav {
     align-content: start;
     background-color: #00014b;
     padding: 10px 0;
-    gap: 10px;
 }
 
 nav ul{
@@ -34,6 +33,7 @@ nav a {
 h1 {
     font-weight: bold;
     color: #00014b;
+    font-family: 'Times New Roman', Times, serif;
 }
 h2 {
     display: block;
@@ -44,6 +44,7 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
+    font-family: 'Times New Roman', Times, serif;
 }
 h3 {
     display: block;
@@ -53,12 +54,13 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 p {
     font-size: 1em;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* footer styling */
 footer {
@@ -116,4 +118,22 @@ div ul li img {
 .maize_img {
     width: 100%;
     height: auto;
+}
+
+.active{
+    color: rgb(255, 213, 0);
+}
+
+.mh_card {
+    background-color: #f3ce12;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+}
+
+.head{
+    background-color: #00014b;
+    text-align: center;
 }
