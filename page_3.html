@@ -24,7 +24,7 @@
         
 
     </header>
-    <main id="main">
+    <main id="main" style="margin: 40px;">
         <div><h1>Resources By Category</h1></div>
         <div>
              <ul class="card_list">
@@ -59,8 +59,14 @@
         </div>
     </main>
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
+        <p>Basic Needs Support | basicneeds@umich.edu</p>
+        <p>Location: 420 S State St, Ann Arbor, MI | Hours: Tues–Sat, 10AM–6PM</p>
+        <p>© <span id="year"></span> University of Michigan. All rights reserved.</p>
+      </footer>
+      
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     
 </body>
 

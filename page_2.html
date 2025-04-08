@@ -13,22 +13,34 @@
         <div class="head" >
             <a href = "#main" class = "skip">Skip to Main Content</a>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="logo">
-        <nav>
-            <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="page_1.html">Academic Support</a></li>
-            <li><a href="page_2.html" class="active">Maize and Blue Cupboard</a></li>
-            <li><a href="page_3.html">Basic Needs</a></li>
-        </ul>
-        </nav>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page_1.html">Academic Support</a></li>
+                <li><a href="page_2.html" class="active">Maize and Blue Cupboard</a></li>
+                <li><a href="page_3.html">Basic Needs</a></li>
+                </ul>
+            </nav>
         </div>
-        <h1>WHO WE ARE</h1>
-
     </header>
-    <main id="main">
-        <div>
+
+    <main id="main" style="margin: 40px;">
+        <div class="maize_mission">
+            <div class="maize_mission_text">
+                <h1>WELCOME TO MAIZE & BLUE CUPBOARD</h1>
+                <p class="maize_p">We are a food pantry and resource center for the University of Michigan community. We are here to help you with food, personal items, and household supplies.</p>
+                <h2> OUR MISSION</h2>
+                <p class="maize_p">To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others.</p>
+            </div>
+            <img src="images/grocerybag.png" alt="grocery bag" class="maize_bag">
+        </div>
+        
+        
+        
+        
+        <div class="video-section">
             <div>
-            <p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.
+                <h2>WHO WE ARE</h2><p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.
 
             Read our FAQs to learn more about the Maize and Blue Cupboard and how you can get help.</p>
             </div>
@@ -37,24 +49,47 @@
                 title="Video of Maize and Blue Cupboard" >
             </iframe>
         </div>
-
-<div><h1>WHAT WE PROVIDE</h1></div>
 <div>
-        <ul>
-            <li><strong>FOOD</strong> <br>Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</li>
-            <li><strong>KITCHEN & COOKING</strong> <br>Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware</li>
-            <li><strong>PERSONAL & HOUSEHOLD</strong> <br>Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more</li>
-            <li><strong>SUPPORT</strong> <br>Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)</li>
-            
-        </ul>
-    <img src="images/veggies.png" alt="vegetables" class="maize_img">
+<h2>WHAT WE PROVIDE</h2>
+    <div class="provide_grid">
+    <div class="provide_card">
+        <img src="images/salad.png" alt="Food Icon" >
+        <h3>FOOD</h3>
+        <p>Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</p>
+    </div>
 
+  <div class="provide_card">
+    <img src="images/spoon-and-fork.png" alt="Utensils Icon" >
+    <h3>KITCHEN & COOKING</h3>
+    <p>Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware</p>
+  </div>
+
+  <div class="provide_card">
+    <img src="images/cleaning.png" alt="cleaning Icon" >
+    <h3>PERSONAL & HOUSEHOLD</h3>
+    <p>Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more</p>
+  </div>
+
+  <div class="provide_card">
+    <img src="images/handshake (2).png" alt="Handshake Support Icon" >
+    <h3>SUPPORT</h3>
+    <p>Get connected to campus experts like CAPS, Dean of Students, Financial Aid, and SNAP (Michigan’s food program)</p>
+  </div>
 </div>
+</div>
+          
+
+
     </main>
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+        <p>Maize & Blue Cupboard | maizeblue@umich.edu</p>
+        <p>Location: 420 S State St | Hours: Tues–Sat, 10AM–6PM</p>
+        <p>© <span id="year"></span> University of Michigan. All rights reserved.</p>
+        <!-- <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p> -->
     </footer>
-    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
 </body>
 
 </html>

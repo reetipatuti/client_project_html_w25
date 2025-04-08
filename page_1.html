@@ -23,34 +23,40 @@
             </ul>
         </nav>
         </div>
-        <h1>Academic Suport at UMSI</h1>
-
     </header>
-    <main id="main">
-        <div style="position: relative; display: block; width: 100%; max-height: 500px; overflow: hidden;">
-            <img src="images/school_of_info.jpeg" alt="school of information" style="width: 100%; height: auto; max-height: 500px;">
-            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold; text-align: center;">
-            </div>
+
+    <main id="main" style="margin: 40px;">
+        <h1>Academic Suport at UMSI</h1>
+        <div>
+            <img src="images/school_of_info.png" alt="school of information">
         </div>
         <div>
             <p>Academic Advising is a process where students envision, execute, and reflect on their academic plans with guidance from a qualified UMSI Academic Advisor. Students share their goals, challenges, and questions with their academic advisor, and their academic advisor contributes knowledge of university and program requirements, policies, and processes. Together, we develop an academic plan that aligns with the student's personal and professional goals. 
 
             </p>
+            <div>
             <h2> How can your Academic Advisor help you?</h2>
-            <ol>
+            <ol class="advisor_button_list">
                 <li>Creating an individualized academic plan</li>
                 <li>Interpreting an academic policy or procedure</li>
                 <li>Discussing concerns about a particular course</li>
                 <li>Connecting with student support resources and services</li>
                 <li>Navigating a disruption to your MSI experience</li>
-            </ol>
+              </ol>
+            </div>
 
         </div>
+    </main>
 
 
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
+        <p>Academic Advising | umsi.advising.msi@umich.edu</p>
+        <p>Hours: Mon–Fri, 9AM–5PM</p>
+        <p>© <span id="year"></span> University of Michigan. All rights reserved.</p>
+      </footer>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     
 </body>
 
